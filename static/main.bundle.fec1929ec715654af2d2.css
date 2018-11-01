@@ -1,16 +1,17 @@
 ._104V2 {
   position: relative;
   width: 100%;
-  border: 3px solid tomato;
   white-space: nowrap;
   font-size: 0;
   padding: 0;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch; }
-
-._3qKxZ {
-  position: relative;
-  padding: 5px; }
+  overflow: hidden;
+  width: 80vw;
+  margin: 50px auto; }
+  ._3iVIo {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: -17px; }
 
 ._3UoUo {
   position: -webkit-sticky;
@@ -28,13 +29,18 @@
   left: 0; }
   ._3RyLw {
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+    margin-top: 5px;
+    margin-bottom: 5px; }
 
 ._1ghFt {
   display: inline-block;
   vertical-align: top;
   width: 300px;
   margin-right: 5px; }
+  ._2VII6 {
+    position: relative;
+    padding: 5px; }
 
 ._2Pe8Y {
   background: #222; }
@@ -69,4 +75,4 @@ section {
   padding: 15px; }
 
 
-/*# sourceMappingURL=main.bundle.2c6f65ea660c7c68508a.css.map*/
+/*# sourceMappingURL=main.bundle.fec1929ec715654af2d2.css.map*/
