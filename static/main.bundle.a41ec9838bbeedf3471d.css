@@ -43,7 +43,10 @@
     padding: 5px; }
 
 ._2Pe8Y {
-  background: #222; }
+  display: block;
+  position: relative;
+  background: #222;
+  width: 100%; }
   ._2Pe8Y::after {
     content: "";
     display: block;
@@ -52,6 +55,17 @@
     padding-bottom: 25%; }
   ._2Pe8Y + ._2Pe8Y {
     margin-top: 5px; }
+  ._2Pe8Y._2OwzK {
+    background: #555;
+    color: white; }
+    ._2Pe8Y._2OwzK::before {
+      content: "+";
+      font-size: 32px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
 
 *, *::before, *::after {
   box-sizing: border-box; }
@@ -75,4 +89,4 @@ section {
   padding: 15px; }
 
 
-/*# sourceMappingURL=main.bundle.b375602a977621a50851.css.map*/
+/*# sourceMappingURL=main.bundle.a41ec9838bbeedf3471d.css.map*/
